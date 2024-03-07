@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.choice {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.results {
+  margin-bottom: 20px;
+}
+
+#play-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
