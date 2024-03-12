@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Capitals Quiz</title>
+</head>
+<body>
+    <h1>Capitals Quiz</h1>
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="country-name"></h2>
+            <img id="country-flag" src="" alt="Flag">
+            <input type="text" id="capital-input">
+            <button onclick="checkAnswer()">Valider</button>
+            <p id="result"></p>
+            <button onclick="nextQuestion()">Question Suivante</button>
+        </div>
+        <div id="score-container">
+            <h3>Score: <span id="score">0</span></h3>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
